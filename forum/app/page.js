@@ -13,3 +13,6 @@ let result = await db.collection('post').find().toArray();
     </div>
   );
 }
+
+
+import {objectId} from "mongodb";
